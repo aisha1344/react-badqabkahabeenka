@@ -1,0 +1,77 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  .home {
+    width: 100%;
+    max-height: 100vh;
+  }
+  
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 17vh;
+    padding: 0.8rem 2rem;
+    position: fixed;
+    top: 0%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.509);
+    margin-top: -1rem;
+  }
+  .logo {
+  }
+  .logo img {
+    width: 7rem;
+    height: 8rem;
+    margin-left: -3rem;
+    padding-bottom: 1rem;
+  }
+ 
+  .menus ul li {
+    display: inline-block;
+    margin-right: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .menus ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 380;
+    font-family: "Roboto", sans-serif;
+    color: #181b1d;
+  }
+  a:hover {
+    border-bottom: 2px solid #9d054e;
+  }
+  .active {
+    border: 1px solid #9d054e;
+    padding: 0.6rem 0.9rem;
+    border-radius: 0.8rem;
+    color: white;
+  }
+  .middle-con {
+    padding: 18rem 0 0 0rem;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    padding-bottom: 14rem;
+    padding-left: 12rem;
+    background-image: url("../images/best.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .middle-con h3 {
+    color: #143f6b;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+  }
+  
+  .middle-con p {
+    color: #143f6b;
+    font-size: 3.2rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+  }
+  

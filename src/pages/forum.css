@@ -1,0 +1,116 @@
+.main-forum{
+    width: 100%;
+}
+
+.forum{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 4rem;
+    padding-left: 3rem;
+    
+}
+
+.forum img{
+    width: 45rem;
+    height: 37rem;
+    padding-left: 8rem;
+}
+.post-form{
+    margin-top: 5rem;
+    width: 100%;
+    padding-left: 3rem;
+}
+.post-form h3{
+    color: #143f6b;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.post-form label{
+    color: #143f6b;
+    font-size: 1.5rem;
+    margin-right: .4rem;
+}
+.post-form input{
+    background: none;
+    outline: none;
+    border: .8px solid #aeb4b9;
+    padding: .6rem 3rem;
+    font-size: 1.2rem;
+    color: #9d054e;
+}
+.post textarea{
+    width: 26rem;
+    height: 10rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    outline: none;
+    color: #143f6b;
+}
+.post-form .btn-post{
+    padding:.7rem 1rem;
+    font-size: 1rem;
+    text-align: right;
+    margin-left: 22rem;
+}
+.forum .posts{
+    margin-top: 4rem;
+    padding: 2rem 2rem;
+}
+.forum .posts h3{
+    color: #143f6b;
+    font-size: 3rem;
+    /* margin-right: 15rem; */
+    margin-bottom: 3rem;
+    text-align: left;
+}
+.posts .boxes{
+    width: 100%;
+    /* padding: 0 6rem; */
+
+}
+.boxes{
+    padding: 0rem 12rem;
+    /* margin-left: 10rem; */
+}
+ .boxes .box{ 
+    width: 100%;
+    height: auto;
+    padding: .2rem;
+    display: inline;
+    text-align: left;
+    border-radius:1rem ;
+    /* margin-left: 4rem; */
+}
+.posts h3{
+    color: #143f6b;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.boxes h4{
+    color: #143f6b;
+    font-size: 1.2rem;
+    margin-bottom: .2rem;
+}
+.boxes p{
+    /* width: 20rem; */
+    font-size: 1.1rem;
+    color: #929292;
+   margin-top: 1rem;
+   border: .6px solid #cacaca2a;
+   width: 65rem;
+   padding:.7rem 1rem;
+}
+ 
+.data{
+    margin-left: 1rem;
+}
+.part{
+    display: flex;
+}
+.part .user{
+    font-size: 3rem;
+    color: #aeb4b9;
+    margin-top: -1rem;
+}

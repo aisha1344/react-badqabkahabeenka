@@ -1,0 +1,121 @@
+.nagu-saabsan{
+    width: 100%;
+    height: 100vh;
+    padding: 15rem 5rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.about{
+    padding: 1rem;
+}
+.about h3{
+    color: #143f6b;
+    font-size: 3.3rem;
+    margin-bottom: 3rem;
+}
+.about p{
+    font-size: 1.5rem;
+    color: #b1b1b1;
+    margin-bottom: 3.3rem;
+}
+
+.images img{
+    width: 44rem;
+    height: 35rem;
+    margin-top: -4rem;
+}
+
+.talooyin{
+    width: 100%;
+    height: 100vh;
+    padding-top: 14rem;
+    padding-bottom: 2rem;
+    color: #143f6b;
+
+}
+
+.talooyin h3{
+    font-size: 2.8rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.talooyin h4{
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.tips{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-top:4rem;
+    padding: 1.8rem;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 8rem;
+}
+.icons{
+    color: #9d054e;
+    font-size:6rem;
+    font-weight: 400;
+}
+.talo{
+    padding: 1rem 2rem;
+}
+.talo h4{
+    color: #143f6b;
+    font-size: 2.5rem;
+    font-weight: 450;
+}
+.talo p{
+    color: #143f6b;
+    font-size: 2rem;
+    font-weight: 250;
+}
+.furaysha{
+    padding: 3rem 4rem;
+    margin-top: 7rem;
+}
+
+.furaysha h3{
+    color: #9d054e;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left: 5rem;
+    
+}
+.furo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    padding: 1rem 4rem;
+}
+.video h3{
+    font-size: 1.5rem;
+    margin-left: 8.5rem;
+    margin-top: -4rem;
+}
+.react-player{
+    margin: 3rem  0 0 10rem;
+    width: 12rem;
+
+}
+.list ul{
+    padding-bottom: 10rem;
+    margin-left: 2rem;
+}
+.list ul li{
+    list-style: decimal;
+    font-size: 2rem;
+    margin-top: .4rem;
+    text-align: left;
+    color: #143f6b;
+    
+
+}
